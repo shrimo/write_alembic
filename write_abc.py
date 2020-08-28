@@ -3,7 +3,7 @@ import time
 import maya.cmds as cmds
 import MASH.api as mapi
 import sys
-amg_modules = '//bstorage/rep/set/scripts'
+modules = '/scripts'
 if amg_modules not in sys.path:
     sys.path.append(amg_modules)
 from amg.system import cpp
